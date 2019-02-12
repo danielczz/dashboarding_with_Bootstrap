@@ -17,7 +17,7 @@
 <body  style="background-color: white">
 <!-- Navigation bar -->
 <nav class="navbar navbar-expand-md navbar-dark bg-primary">
-        <a class="navbar-brand abs" href="index.html">L A T I T U D</a>
+        <a class="navbar-brand abs" href="../../index.html">L A T I T U D</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -28,21 +28,30 @@
                                 Plots
                             </a>
                             <div class="dropdown-menu">
-                              <a class="dropdown-item" href="assets/HTML_files/temperature.html">Max Temperature</a>
-                              <a class="dropdown-item" href="assets/HTML_files/humidity.html">Humidity</a>
-                              <a class="dropdown-item" href="assets/HTML_files/cloudy.html">Cloudiness</a>
-                              <a class="dropdown-item" href="assets/HTML_files/wind.html">Wind Speed</a>
+                              <a class="dropdown-item" href="#">Max Temperature</a>
+                              <a class="dropdown-item" href="#">Humidity</a>
+                              <a class="dropdown-item" href="#">Cloudiness</a>
+                              <a class="dropdown-item" href="#">Wind Speed</a>
                             </div>
                     </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="assets/HTML_files/comparison.html">Comparison</a>
+                    <a class="nav-link" href="" data-target="#myModal" data-toggle="modal">Comparison</a>
                 </li>
                 <li class="nav-item">
-                        <a class="nav-link" href="assets/HTML_files/dataviz.html">Data</a>
+                        <a class="nav-link" href="" data-target="#myModal" data-toggle="modal">Data</a>
                 </li>
             </ul>
         </div>
 </nav>
+<!-- 
+<li><a href="wind_speed.html">Wind Speed</a></li>
+</ul>
+</li>
+<li><a href="comparison.html"> Comparison</a></li>
+<li><a href="data.html"> Data</a></li>      -->
+
+
+
 
 <div class="container-fluid">
   <div class="row">
@@ -78,13 +87,13 @@
                   <hr>
                   <div class="row" style = "padding-bottom: 10px">
                       <hr>
-                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="assets/HTML_files/temperature.html"><img class = "img img-responsive" src="assets/output_images/temperaturemap.png" style="width:100%" alt=""></a></div>
-                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="assets/HTML_files/humidity.html"><img class = "img img-responsive" src="assets/output_images/humiditymap.png" style="width:100%" alt=""></a></div>
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="temperature.html"><img class = "img img-responsive" src="assets/output_images/temperaturemap.png" style="width:100%" alt=""></a></div>
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="humidity.html"><img class = "img img-responsive" src="assets/output_images/humiditymap.png" style="width:100%" alt=""></a></div>
                   </div>
       
                   <div class="row">
-                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="assets/HTML_files/cloudy.html"><img class = "img img-responsive" src="assets/output_images/cloudymap.png" style="width:100%" alt=""></a></div>
-                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="assets/HTML_files/wind.html"><img class = "img img-responsive" src="assets/output_images/windmap.png" style="width:100%" alt=""></a></div>
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="cloud_cover.html"><img class = "img img-responsive" src="assets/output_images/cloudymap.png" style="width:100%" alt=""></a></div>
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="wind_speed.html"><img class = "img img-responsive" src="assets/output_images/windmap.png" style="width:100%" alt=""></a></div>
                   </div>
               </div>
               </div>
