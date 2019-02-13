@@ -10,7 +10,10 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
 
   <style>
-
+.container-fluid > .row {
+    margin-left: 0;
+    margin-right: 0;
+}
   </style>
 
 </head>
@@ -45,27 +48,17 @@
         </div>
 </nav>
 
-<!-- <nav class="navbar navbar-light bg-light">
-    <a class="navbar-brand" href="#"></a>
-  </nav>
-  <nav class="navbar navbar-light bg-light">
-      <a class="navbar-brand" href="#"></a>
-    </nav> -->
-  
 <div class="container-fluid">
   <div class="row">
-    
-    <div class="col-xs-7 col-sm-6 col-lg-8" style="background-color:lightgray;">
-
-      <h2>
-      Summary: Latitude and Longitude
-      </h2>
-
+    <div class="col-xs-7 col-sm-6 col-lg-8" style="background-color:white;">
+    <br>
+    <h2>Summary: Latitude and X</h2>
         <div class="panel panel-default">
             <div class="panel-body" style="background-color: white">
                 <hr>
-                <img class = "img-responsive" src="assets/output_images/cloudymap.png" style="width:40%; float: left; margin: 5px;" alt="first image" >
-                <p>The purpose of this project was to analyze how weather changes as you get closer to the equator.  
+                <img class = "img-responsive" src="assets/output_images/temperaturemap.png" style="width:50%; float: left; margin: 25 px;" alt="first image" >
+                <br>
+                <p style="width:50%; float: right; margin: 25 px;" >The purpose of this project is to analyze how weather changes as you get closer to the equator.  
                   To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset 
                   on over 500 cities.
                   <br>
@@ -79,13 +72,16 @@
         </div>
     </div>
 
-    <div class="col-xs-5 col-sm-6 col-lg-4" style="background-color:lightgray;">
+    <div class="col-xs-5 col-sm-6 col-lg-4" style="background-color:white;">
+                         <br> 
+                    <h2 class="main_text">Visualizations</h2>
+                    
 
-      <h2>Visualizations</h2>
   
           <div class="panel panel-default">
               <div class="panel-body" style="background-color: white">
-                  <hr>
+              
+                  <hr><h6> Click any plot to get an in-depth analysis: </h6>
                   <div class="row" style = "padding-bottom: 10px">
                       <hr>
                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="assets/HTML_files/temperature.html"><img class = "img img-responsive" src="assets/output_images/temperaturemap.png" style="width:100%" alt=""></a></div>
