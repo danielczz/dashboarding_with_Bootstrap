@@ -14,6 +14,29 @@
     margin-left: 0;
     margin-right: 0;
 }
+
+.p {
+    width:50%; f
+    loat: right; 
+    margin: 25 px;
+}
+
+.perz_img {
+  width:50%; float: left; margin: 25 px;
+  
+}
+
+@media (max-width: 480px) {
+.perz_img {
+  width: 100%;
+  display:block;
+  overflow-x: auto;
+  overflow-y: auto;
+  }
+
+.p {
+    width:90%;
+}
   </style>
 
 </head>
@@ -56,9 +79,9 @@
         <div class="panel panel-default">
             <div class="panel-body" style="background-color: white">
                 <hr>
-                <img class = "img-responsive" src="../output_images/cloudymap.png" style="width:50%; float: left; margin: 25 px;" alt="first image" >
+                <img class = "perz_img img-responsive" src="../output_images/cloudymap.png" alt="first image" >
                 <br>
-                <p style="width:50%; float: right; margin: 25 px;" >
+                <p>
                 On the "Cloudiness (%) vs. Latitude" plot we can conclude that many cities tends to 0% of cloudiness indicator. 
                 It is important to mention that these data points were gathered in real time from OperWeatherAPI during last year 2017.
                 </p>

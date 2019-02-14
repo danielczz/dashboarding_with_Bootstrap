@@ -10,10 +10,36 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
 
   <style>
+
 .container-fluid > .row {
     margin-left: 0;
     margin-right: 0;
 }
+
+.p {
+    width:50%; f
+    loat: right; 
+    margin: 25 px;
+}
+
+.perz_img {
+  width:50%; float: left; margin: 25 px;
+  
+}
+
+@media (max-width: 480px) {
+.perz_img {
+  width: 100%;
+  display:block;
+  overflow-x: auto;
+  overflow-y: auto;
+  }
+
+.p {
+    width:90%;
+}
+
+
   </style>
 
 </head>
@@ -56,9 +82,9 @@
         <div class="panel panel-default">
             <div class="panel-body" style="background-color: white">
                 <hr>
-                <img class = "img-responsive" src="../output_images/temperaturemap.png" style="width:50%; float: left; margin: 25 px;" alt="first image" >
+                <img class = "perz_img img-responsive" src="../output_images/temperaturemap.png" alt="first image" >
                 <br>
-                <p style="width:50%; float: right; margin: 25 px;" >
+                <p>
                 As expected the weather becomes significantly warmer as one approaches the equator (0 degrees Latitude). More interestingly, however, is the fact 
                 that the souther hemisphere tends to be warmer this time of the year compared to the norther hemisphere. This may be due to the tilt of the earth 
                 at the time of the year this data was gathered.

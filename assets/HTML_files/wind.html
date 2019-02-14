@@ -14,6 +14,31 @@
     margin-left: 0;
     margin-right: 0;
 }
+
+.p {
+    width:50%; f
+    loat: right; 
+    margin: 25 px;
+}
+
+.perz_img {
+  width:50%; float: left; margin: 25 px;
+  
+}
+
+@media (max-width: 480px) {
+.perz_img {
+  width: 100%;
+  display:block;
+  overflow-x: auto;
+  overflow-y: auto;
+  }
+
+.p {
+    width:90%;
+}
+}
+
   </style>
 
 </head>
@@ -56,9 +81,9 @@
         <div class="panel panel-default">
             <div class="panel-body" style="background-color: white">
                 <hr>
-                <img class = "img-responsive" src="../output_images/windmap.png" style="width:50%; float: left; margin: 25 px;" alt="first image" >
+                <img class = "perz_img img-responsive" src="../output_images/windmap.png" alt="first image" >
                 <br>
-                <p style="width:50%; float: right; margin: 25 px;" >
+                <p>
                 On this particular chart we can expose the fact that countries located in latitude greater than 40 degrees, 
                 must leverage different options to fulfill their energy needs (such as green energy and alternative fuel options).
                 </p>
