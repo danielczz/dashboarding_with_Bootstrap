@@ -15,11 +15,42 @@
   text-align: justify;
 }
 
-.perz_table {
-  padding: 8px;
+thead {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 }
 
+tbody {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  color: black;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
 
+.perz_table {
+  position: relative;
+  width: 90%;
+  margin: 10px auto;
+}
+
+@media (max-width: 480px) {
+.perz_table {
+  width: 300px;
+  display:block;
+  overflow-x: auto;
+  overflow-y: auto;
+  
+}
+.main_text {
+  text-align: left;
+  margin: 10px;
+}
+}
 
   </style>
 
@@ -56,23 +87,16 @@
 </nav>
 
           <div class="panel panel-default">
-
-      
               <div class="panel-body" style="background-color: white">
-                         <br> 
-
+                         <br>
                     <h2 class="main_text">Data</h2>
                                       <hr>
-
-                    <h6 class="main_text"> The following table includes all of the data used for plotting during this project. </h6>
-
-
+                    <h6 class="main_text">The following table includes all of the data used for plotting during this project. </h6>
                   <hr>
                   <div class="row">
-
                   <table border="1" class="dataframe perz_table">
   <thead>
-    <tr style="text-align: right;">
+    <tr style="text-align: center;">
       <th></th>
       <th>City_ID</th>
       <th>City</th>
